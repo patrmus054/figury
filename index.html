@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="PL-pl">
+
+<head>
+    <title>websocket</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Mobilne aplikacje internetowe - zadanie 1" />
+    <meta name="viewport" content="width=device-width initial-scale=1 minimum-scale=1" />
+
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/figures.css" />
+</head>
+
+<body>
+    <main>
+        <h1>Move figures</h1>
+        <section class="canvas">
+            <div class="figure square"></div>
+            <div class="figure circle"></div>
+            <div class="figure triangle"></div>
+            <div class="figure rectangle"></div>
+        </section>
+        <section class="error-message">
+            <h2>Nieobsługiwany format ekranu :(</h2>
+            <p>Ekran urządzenia, z którego krzystasz jest za mały lub korzystasz z trybu krajobraz. Spróbuj ustawić
+                tryb portret, lub użyj innego urządzenia.
+            </p>
+        </section>
+    </main>
+
+    <script src="./scripts/common.js"></script>
+    <script src="./scripts/move.js"></script>
+    <script src="./client/client.js"></script>
+</body>
+
+</html>

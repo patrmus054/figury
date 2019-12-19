@@ -1,0 +1,43 @@
+.figure {
+  position: absolute; }
+
+.circle {
+  top: 10px;
+  bottom: auto;
+  left: 10px;
+  right: auto;
+  width: 80px;
+  height: 80px;
+  background-color: #f00  ;
+  border-radius: 40px; }
+
+.square {
+  top: auto;
+  bottom: 10px;
+  left: 10px;
+  right: auto;
+  width: 80px;
+  height: 80px;
+  background-color: #f00; }
+
+.rectangle {
+  top: auto;
+  bottom: 10px;
+  left: auto;
+  right: 10px;
+  width: 80px;
+  height: 120px;
+  background-color: #f00; }
+
+.triangle {
+  top: 10px;
+  bottom: auto;
+  left: auto;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border-top: 0;
+  border-top: 0;
+  border-bottom: 69px solid #f00;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent; }
